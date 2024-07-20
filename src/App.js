@@ -2,10 +2,10 @@ import React from 'react';
 function App() {
   return (
       
-    <div className="">
-      <img className="" src={require('./profile.jpg')} alt="Display" />
-      <div className="">
-        <div className="">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <img className="w-full" src={require('./profile.jpg')} alt="Display" />
+      <div className="px-6 py-4">
+        <div className="App-header">
           Blessing Krofegha
         </div>
         <p className="">
